@@ -71,8 +71,8 @@ const tick = () => {
 
     // Update objects
     // CAR.rotation.x += (.5 * (targetY - CAR.rotation.x)) * .1
-    CAR.rotation.y += (.5 * (targetX - CAR.rotation.y)) * .1
-	// CAR.rotation.y -= 0.004;
+    // CAR.rotation.y += (.5 * (targetX - CAR.rotation.y)) * .1
+	CAR.rotation.y -= 0.004;
 
     // Call tick again on the next frame
     window.requestAnimationFrame(tick)
